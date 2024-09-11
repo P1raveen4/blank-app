@@ -47,7 +47,7 @@ fig_comparative.add_scatter(x=conso_filtered['DATE'], y=conso_filtered['Consomma
                             name="Consommation", line=dict(color='red'))
 
 st.plotly_chart(fig_comparative, use_container_width=True)
-"""
+
 
 # Save the code as a Python file for running in Streamlit
 with open("/mnt/data/streamlit_dashboard.py", "w") as file:
